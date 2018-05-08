@@ -11,6 +11,6 @@ class EmailParser
   end
   
   def parse
-    emails.split(/[\s]/).compact
+    emails.split(/[\s\,]/).compact
   end
 end
